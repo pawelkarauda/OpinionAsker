@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -12,11 +13,11 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pawelkarauda/OpinionAsker/issues"
-  },
   "homepage": "https://askforopinion.herokuapp.com",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
   }
 }
