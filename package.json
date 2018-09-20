@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/pawelkarauda/OpinionAsker/issues"
   },
-  "homepage": "https://github.com/pawelkarauda/OpinionAsker#readme",
+  "homepage": "https://askforopinion.herokuapp.com",
   "dependencies": {
     "express": "^4.16.3"
   }
