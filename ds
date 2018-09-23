@@ -1,0 +1,65 @@
+[33mcommit 33e3b38affda50b64acf1484409c78ceafe323c4[m[33m ([m[1;36mHEAD -> [m[1;32mroutingInProduction[m[33m, [m[1;31morigin/routingInProduction[m[33m)[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sun Sep 23 20:59:28 2018 +0200
+
+    Prepared for deployment
+
+[33mcommit d332237f825aa80611f594a87ddbbb851330e40f[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/billing[m[33m, [m[1;31mheroku/master[m[33m, [m[1;32mmaster[m[33m, [m[1;32mbilling[m[33m)[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sun Sep 23 18:53:40 2018 +0200
+
+    Added payment with stripe
+
+[33mcommit 144b93b576382df58d73e50ca72cee2f500850bf[m[33m ([m[1;31morigin/client[m[33m, [m[1;32mclient[m[33m)[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sun Sep 23 15:21:45 2018 +0200
+
+    Finished logging in and out on ckient side
+
+[33mcommit 536fbff586478e65c2d1aad827e33a27e96b2fc2[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sat Sep 22 20:09:30 2018 +0200
+
+    Adding redux
+
+[33mcommit ccfdac0fb7b1075ab5a572eb0eeded985ba8c7b4[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sat Sep 22 19:33:42 2018 +0200
+
+    Added client side, changed proxy
+
+[33mcommit 2df6514a5e6a45a29c5a5d2fff4de106a1c81362[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sat Sep 22 18:38:55 2018 +0200
+
+    Proxy repair
+
+[33mcommit 2605a54b09b611d7b86f10560af96913e370c8df[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sat Sep 22 18:32:42 2018 +0200
+
+    Typeos
+
+[33mcommit fed70e31dda6ee0d2a8a4665d18429e36ff77df3[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sat Sep 22 18:27:48 2018 +0200
+
+    Typeos
+
+[33mcommit 9e008cd712dd9413a8a601c3879f2e761d1eb6f3[m[33m ([m[1;32mDevVSProdenv[m[33m)[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sat Sep 22 18:22:41 2018 +0200
+
+    Changed keys to prod and dev
+
+[33mcommit d17f6a3cdab5dfa97963fed807e592b2f5a5de8a[m[33m ([m[1;31morigin/oauthwithmongo[m[33m, [m[1;31morigin/DevVSProdenv[m[33m, [m[1;32moauthwithmongo[m[33m)[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sat Sep 22 12:07:23 2018 +0200
+
+    Added mongoDB model for User, logging in, loging out with cookieSession library
+
+[33mcommit defb4932efae2c25b2f6db8375920749f3183915[m
+Author: Pawel Karauda <pkarauda@asper.net.pl>
+Date:   Sat Sep 22 10:34:23 2018 +0200
+
+    Add mongoose to connected
