@@ -1,30 +1,39 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import Payment from "./Payment";
 
 class Header extends Component {
     renderContent() {
-        if (this.props.auth) {
-            if (this.props.auth === null) {
-                return <li>Logging in./</li>;
-            } else if (this.props.auth.data === "") {
+        switch (this.props.auth) {
+            case null:
+                return <li>Loggin in..</li>;
+            case false:
                 return (
                     <li>
-                        <a href="/auth/google">Login with Google</a>
+                        <a className="btn black" href="/auth/google">
+                            Login with Google
+                        </a>
                     </li>
                 );
-            } else {
-                return (
-                    <li>
-                        <a href="/api/logout">Logout</a>
+            default:
+                return [
+                    <li key="1">
+                        <Payment />
+                    </li>,
+                    <li key="2" style={{ margin: "0 0 0 15px" }}>
+                        Credits: {this.props.auth.credits}
+                    </li>,
+                    <li key="3">
+                        <a className="btn red" href="/api/logout">
+                            Logout
+                        </a>
                     </li>
-                );
-            }
+                ];
         }
     }
 
     render() {
-        console.log(this.props.user);
         return (
             <nav>
                 <div className="nav-wrapper blue">
